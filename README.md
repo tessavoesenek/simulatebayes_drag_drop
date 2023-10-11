@@ -11,7 +11,7 @@ The goal of simulatebayes is to make simulated data and run bayesian regression 
 You can install the development version of simulatebayes like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+devtools::install.github("tessavoesenek/simulatebayes_drag_drop.git", build_vignettes = TRUE)
 ```
 
 ## Example
