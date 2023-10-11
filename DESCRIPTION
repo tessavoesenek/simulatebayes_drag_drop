@@ -1,0 +1,26 @@
+Package: simulatebayes
+Type: Package
+Title: This packages simulates data an experiment 
+Version: 0.1.0
+Author: Tessa Voesenek 
+Maintainer: Tessa Voesenek <tvoesenek@nza.nl>
+Description: This packages simulates data and runs bayesian regression for an financing experiment among GP's. The package simulates data on GP's that refer patients to hospitals. The referrals are simulated for 12 quarters. The intervention is a new way of financing and from quarter 9 up until quarter 12. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.1.10)
+Config/testthat/edition: 3
+Imports: 
+    brms,
+    dplyr,
+    ggplot2,
+    ggridges,
+    rlang,
+    stringr,
+    tibble,
+    tidyr (>= 1.3.0)
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr
